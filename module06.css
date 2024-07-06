@@ -60,7 +60,7 @@ header nav {
     justify-content: space-between;
     padding: 50px 230px 0 230px;
 }
-i {
+.fa-solid {
     margin-right: 10px;
 }
 header nav h3 {
