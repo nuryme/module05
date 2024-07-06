@@ -1,0 +1,10 @@
+:root {
+    --orange: #FD6E0A;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
