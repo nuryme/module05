@@ -20,7 +20,6 @@ body {
 
 /*--heder section styles here--*/
 header {
-    max-width: 1320px;
     min-height: 600px;
     margin: auto;
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('images/Banner Image.png');
@@ -79,5 +78,241 @@ header h1 {
 .discount img {
     width: 802.9px;
     height: 500px;
-    border: 1px dashed var(--color-1);
+    border: 1px dashed rgb(167 167 167);
+}
+
+/*--midnight party section styles here--*/
+.midnight {
+    height: 600px; 
+    display: flex; 
+    align-items: center;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) ,url('images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 120px;
+    justify-content: space-between;
+    text-align: left;
+}
+.midnight .content {
+    margin-left: 126px;
+}
+.midnight .content h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.midnight .content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    width: 697px;
+    text-align: left;
+}
+.midnight .content div {
+    margin: 48px 0 0 32px;
+    text-align: left;
+}
+.midnight .content div span {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;;
+}
+.midnight .img {
+    width: 349.16px;
+    height: 464.65px;
+    margin-right: 108px;
+    border: 1px dashed rgb(167 167 167);
+}
+.midnight .img img {
+    width: 319.83px;
+    border-right: 1px dashed rgb(167 167 167);
+    margin-right: 30px;
+}
+
+/* joining seciton's styles here */
+.join {
+    height: 482px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+span {
+    color: var(--color);
+}
+.join h1 {
+    line-height: 56px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+.join button {
+    color: white;
+    background-color: var(--color);
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 48px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* coming soon section styles here */
+.coming {
+    display: flex;
+    height: 463px;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.coming .offer {
+    margin: auto 0;
+    text-align: left;
+    width: 393px;
+}
+.coming .offer h5 {
+    color: rgb(255, 0, 0);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+.coming .offer h1 {
+    color: rgb(7, 2, 17);
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 16px;
+}
+.coming .offer p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.coming .img {
+    border: 15px solid var(--color);
+    padding: 30px;
+    border-radius: 50%;
+    width: 463px;
+    height: 463px;
+    display: flex;
+}
+.coming .img img {
+    border: 1px dashed rgb(167, 167, 167);
+}
+.coming .content {
+    width: 276px;
+    text-align: left;
+}
+.coming .content h1 {
+    color: rgb(255, 0, 0);
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.coming .content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16px;
+}
+.coming .content img {
+    border: 1px dashed rgb(167 167 167);
+    margin-top: 43px;
+}
+
+/* holidays sale section's styles here */
+.holiday {
+    position: relative;
+    height: 986.07px;
+    margin-bottom: 120px;
+    /* background-image: url('images/Rectangle\ 2.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 1623px; */
+}
+.holiday h5 {
+    color: rgb(7, 2, 17);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday h1 {
+    font-family: 'Merriweather';
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+.holiday p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin: auto;
+    margin-top: 28px;
+}
+.holiday .container {
+    display: flex;
+    margin-top: 64px;
+}
+.holiday .container .img-1 {
+    margin-left: 60px;
+}
+.holiday .container .img-2 {
+    width: 305.69px;
+    height: 305.69px;
+    position: absolute;
+    right: 15%;
+    z-index: 1;
+    bottom: 28%;
+}
+.holiday .container .img-3 {
+    position: absolute;
+    right: 0;
+    bottom: 23.1%;
+    border-radius: 0 16px 0 0;
+}
+.holiday .fixed {
+    position: absolute;
+    width: 1623px;
+    height: 229px;
+    background-color: var(--color);
+    border-radius: 0 0 16px 16px;
+    bottom: 0;
+    z-index: -1;
 }
