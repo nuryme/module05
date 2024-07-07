@@ -432,3 +432,56 @@ span {
     right: 0;
     cursor: pointer;
 }
+
+/* footer section's styles here */
+footer {
+    height: 609px;
+    background: rgb(7, 2, 17);
+    color: white;
+    padding: 120px 140px;
+}
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer .content div p {
+    text-align: left;
+}
+footer .content .text p {
+    width: 375px;
+}
+footer .content i {
+    border: 1px dashed white;
+    margin-right: 10px;
+}
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+footer .icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+footer .icons img {
+    border: 1px dashed rgb(167 167 167);
+}
+footer .rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .rights p {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
