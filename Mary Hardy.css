@@ -250,3 +250,31 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 18px 0 18px 30px;
     margin-bottom: 24px;
 }
+
+
+
+
+@media (max-width: 767px) {
+    .do .container , .resume .container {
+        flex-wrap: wrap;
+    }
+    footer {
+        flex-direction: column;
+        gap: 0;
+        padding: 20px;
+    }
+    .about .about-container .content .items {
+        flex-direction: column;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea {
+        width: calc(100% - 40px);
+    }
+    .about .about-container {
+        margin: 20px;
+    }
+}
+@media (max-width: 567px) {
+    .do .container, .resume .container {
+        flex-direction: column;
+    }
+}
